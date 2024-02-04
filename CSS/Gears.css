@@ -1,0 +1,28 @@
+.gears{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex: 1;
+}
+.gears-content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  row-gap: 40px;
+}
+.gears-content-images{
+  width: 80%;
+  height: 200px;
+}
+.gears-content p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+.gears-content a:hover{
+  box-shadow: 2px 2px 5px orange;
+}
